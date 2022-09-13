@@ -29,7 +29,7 @@ const MainContainer = () => {
                             <h1>Hi, I'm Agus</h1>
                         </div>
                         <p>
-                            I am a front end developer and looking for my first experience as a web developer. 
+                            I'm a front end developer and looking for my first experience as a web developer. 
                             I consider having a diverse profile, allowing me to have a broader vision in the different 
                             disciplines assigned to me. Curious about design in all areas and characterized by paying 
                             attention to details.

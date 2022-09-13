@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 import navIcon4 from '../assets/img/nav-icon4.svg'
-import CV from '../assets/files/Work _Experience.pdf'
+import CV from '../assets/files/Agustin_CV.pdf'
 
 
 
@@ -48,14 +48,14 @@ const onUpdateActiveLink = (value) => {
             <span className="navbar-text">
               <div className="icons">
                 <a href="https://www.linkedin.com/in/agustin-ramirez-8a160a196/" target="_blank" rel='noreferrer'><img src={navIcon1} alt='linkerdin'/></a>
-                <a href="https://www.instagram.com/ramirez.lutheria/" target="_blank" rel='noreferrer'><img src={navIcon3} alt='instagram'/></a>
+                <a href="https://www.instagram.com/ramirez.4gus/" target="_blank" rel='noreferrer'><img src={navIcon3} alt='instagram'/></a>
                 <a href="https://github.com/RamirezAgus/" target="_blank" rel='noreferrer'><img src={navIcon4} alt='github'/></a>
               </div>
               <HashLink to='#connect'>
                 <button><span>Let's Connect</span></button>
               </HashLink>
               <div className="cv-download-bx">
-                <a href={CV} dowload="Work_Experience"><button>Download CV</button></a>
+                <a href={CV} dowload="Agustin_CV"><button>Download CV</button></a>
               </div>
             </span>
           </Navbar.Collapse>

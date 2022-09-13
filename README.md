@@ -10,10 +10,10 @@ I did this to introduce myself and to put into practice some technologies that I
 
 Project created with:
 
--React JS.
--React-bootstrap.
+- React JS.
+- React-bootstrap.
 
 ## Let's get in touch
 
--Email: rlagustin0@gmail.com
--Linkedin: https://www.linkedin.com/in/agustin-ramirez-8a160a196/
+- Email: rlagustin0@gmail.com
+- Linkedin: https://www.linkedin.com/in/agustin-ramirez-8a160a196/

@@ -1,0 +1,29 @@
+{
+    "welcome" :"Welcome to my Portfolio",
+    
+    "hello": "Hi, I'm Agus!",
+
+    "desc": "I'm a front end developer and looking for my first experience as a web developer. I consider having a diverse profile, allowing me to have a broader vision in the different disciplines assigned to me.Curious about design in all areas and characterized by paying attention to details.",
+
+    "skills": "Skills",
+
+    "projects": "Projects",
+
+    "connect": "Let's Connect",
+
+    "download": "Download CV",
+
+    "skilltree": "Skills",
+
+    "projectTree": "Projects",
+
+    "projectP": "This is what I've been doing!",
+
+    "projectPh": "You can see other projects in my repository!",
+
+    "getInTouch": "Get in Touch",
+
+    "submit": "Submit",
+
+    "language": "Language"
+}

@@ -5,11 +5,15 @@ import { ProjectCard } from './ProjectCard';
 import mScope from '../assets/img/mscope.png'
 import annette from '../assets/img/annette.png'
 import adige from '../assets/img/adige.png'
+import { useTranslation } from 'react-i18next';
 
 
 
 
 const Projects = () => {
+
+    const { t } = useTranslation();
+
     const project = [
         {
             id: 1,
@@ -40,8 +44,8 @@ const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
-                        <p>This is what I've been doing!</p>
+                        <h2>{t('projectTree')}</h2>
+                        <p>{t('projectP')}</p>
                         <Row>
                             {
                              project.map((project, index) => {
@@ -54,7 +58,7 @@ const Projects = () => {
                              })
                             }
                         </Row>
-                        <p>You can see other projects in my repository!</p>
+                        <p>{t('projectPh')}</p>
                     </Col>
                 </Row>
             </Container>

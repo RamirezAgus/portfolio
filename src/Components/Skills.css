@@ -4,7 +4,7 @@
 }
 
 .skill-bx {
-    background-color: #051755;
+    background: linear-gradient(180deg, rgba(28,57,149,1) 22%, rgba(15,39,135,1) 50%);
     border-radius: 24px;
     text-align: center;
     padding: 60px 50px;

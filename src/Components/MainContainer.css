@@ -66,3 +66,12 @@
     margin-top: 20px;
     width: 100%;
 }
+
+.description {
+    background: linear-gradient(180deg, rgba(28,57,149,1) 22%, rgba(15,39,135,1) 50%);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 25px #222;
+    
+
+}

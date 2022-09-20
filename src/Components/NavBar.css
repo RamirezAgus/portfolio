@@ -17,11 +17,22 @@ nav.navbar a.navbar-brand {
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
+    text-align: left;
     font-weight: 400;
     color: #fff !important;
-    letter-spacing: 0.8px;
-    padding: 0 25px;
-    font-size: 18px;
+    letter-spacing: 0.6px;
+    padding: 0 15px;
+    font-size: 16px;
+    opacity: 0.75;
+}
+
+#basic-nav-dropdown {
+    text-align: left;
+    font-weight: 400;
+    color: #fff !important;
+    letter-spacing: 0.6px;
+    padding: 0 15px;
+    font-size: 16px;
     opacity: 0.75;
 }
 
@@ -37,6 +48,7 @@ span.navbar-text {
 
 .icons {
     display: inline-block;
+    text-align: left;
     margin-left: 14px;
 }
 
@@ -83,7 +95,7 @@ span.navbar-text {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
-    padding: 18px 34px;
+    padding: 8px 17px;
     font-size: 18px;
     margin-left: 18px;
     background-color: transparent;

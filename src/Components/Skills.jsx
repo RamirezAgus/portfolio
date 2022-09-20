@@ -10,11 +10,14 @@ import bootstrap from '../assets/img/bootstrap.svg';
 import git from '../assets/img/git.svg';
 import sass from '../assets/img/sass.svg';
 import react from '../assets/img/react.svg';
+import { useTranslation } from 'react-i18next';
 
 
 
 
 const Skills = () => {
+
+    const { t } = useTranslation();
 
     const responsive = {
         superLargeDesktop: {
@@ -41,7 +44,7 @@ const Skills = () => {
                 <Row>
                     <Col>
                     <div className="skill-bx">
-                        <h2>Skills</h2>
+                        <h2>{t('skilltree')}</h2>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
                             <img src={js} alt="ImageJS"/>

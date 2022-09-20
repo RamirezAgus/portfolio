@@ -4,9 +4,11 @@ import '../Components/Contact.css'
 import { Container, Row, Col } from "react-bootstrap";
 import { useForm, ValidationError } from '@formspree/react';
 import contactImage from "../assets/img/contact.svg"
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
     const [ state, handleSubmit ] = useForm('mwkzpdnn');
+    const { t } = useTranslation();
 
     if(state.succeeded) {
         return <p className='contact' id='connect'>Thanks for message!</p>
@@ -21,7 +23,7 @@ const Contact = () => {
                         <img src={contactImage} alt='contact' />
                     </Col>
                     <Col>
-                        <h2>Get in Touch</h2>
+                        <h2>{t('getInTouch')}</h2>
                         <form onSubmit={handleSubmit} action='https://formspree.io/f/mwkzpdnn' method='POST'>
                             <input id='name' type='text' name='name' placeholder='Name' required/>
                             <ValidationError prefix='Name' field='name' errors={state.errors}/>
@@ -29,7 +31,7 @@ const Contact = () => {
                             <ValidationError prefix="Email" field="email" errors={state.errors}/>
                             <textarea id="message" name="message" placeholder="Message" required/>
                             <ValidationError prefix="Message" field="message" errors={state.errors}/>
-                            <button type="submit" disabled={state.submitting}>Submit</button>
+                            <button type="submit" disabled={state.submitting}>{t('submit')}</button>
                         </form>
                     </Col>
                 </Row>

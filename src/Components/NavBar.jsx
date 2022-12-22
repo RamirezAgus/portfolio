@@ -70,7 +70,7 @@ const onUpdateActiveLink = (value) => {
                 <button><span>{t('connect')}</span></button>
               </HashLink>
               <div className="cv-download-bx">
-                <a href={CV} dowload="Agustin_CV"><button>{t('download')}</button></a>
+                <a href={CV} dowload="CV_español"><button>{t('download')}</button></a>
               </div>
             </span>
           </Navbar.Collapse>

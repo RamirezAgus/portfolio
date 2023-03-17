@@ -5,6 +5,7 @@ import { ProjectCard } from './ProjectCard';
 import mScope from '../assets/img/mscope.png'
 import annette from '../assets/img/annette.png'
 import adige from '../assets/img/adige.png'
+import csports from '../assets/img/customsports1.PNG'
 import { useTranslation } from 'react-i18next';
 
 
@@ -36,6 +37,13 @@ const Projects = () => {
             imgUrl: annette,
             url: "https://annette-site.netlify.app"
             
+        },
+        {
+            id: 4,
+            title: "Custom Sports",
+            description: "Web app developed in conjunction with members of the S6-14-T-MERN team for NoCountry",
+            imgUrl: csports,
+            url: "http://ec2-18-118-29-121.us-east-2.compute.amazonaws.com"
         }
     ]
 

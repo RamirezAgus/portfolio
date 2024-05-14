@@ -6,6 +6,7 @@ import mScope from '../assets/img/mscope.png'
 import annette from '../assets/img/annette.png'
 import adige from '../assets/img/adige.png'
 import csports from '../assets/img/customsports1.PNG'
+import caxerpage from '../assets/img/caxer-page.PNG'
 import { useTranslation } from 'react-i18next';
 
 
@@ -44,6 +45,13 @@ const Projects = () => {
             description: "Web app developed in conjunction with members of the S6-14-T-MERN team for NoCountry",
             imgUrl: csports,
             url: "http://ec2-18-118-29-121.us-east-2.compute.amazonaws.com"
+        },
+        {
+            id: 5,
+            title: "Caxer S.A.",
+            description: "Website developed for information and sale of technological solutions",
+            imgUrl: caxerpage,
+            url: "https://www.caxer.com.ar" 
         }
     ]
 
@@ -54,7 +62,7 @@ const Projects = () => {
                     <Col>
                         <h2>{t('projectTree')}</h2>
                         <p>{t('projectP')}</p>
-                        <Row>
+                        <Row className='d-flex justify-content-center align-items-center'>
                             {
                              project.map((project, index) => {
                                 return(

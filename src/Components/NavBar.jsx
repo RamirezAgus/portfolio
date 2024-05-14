@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 import navIcon4 from '../assets/img/nav-icon4.svg'
-import CV from '../assets/files/Agustin_Ramirez_CV.pdf'
+import CV from '../assets/files/Leandro Ramirez.pdf'
 import { useTranslation } from "react-i18next";
 import LocaleContext from "../LocaleContext";
 import i18n from "../i18n";
